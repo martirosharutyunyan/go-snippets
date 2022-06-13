@@ -1,0 +1,36 @@
+{
+  "name": "go-snippets",
+  "displayName": "go-snippets",
+  "description": "golang snippets",
+  "version": "1.0.15",
+  "publisher": "Martiros",
+  "author": {
+    "name": "Martiros Harutyunyan"
+  },
+  "license": "GPLv3",
+  "homepage": "https://github.com/martirosharutyunyan/go-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martirosharutyunyan/go-snippets"
+  },
+  "icon": "golang.jpg",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "go",
+        "path": "./snippets/go.code-snippets"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "0aff3c43-9d19-4d4f-8537-36d3daa41931",
+    "publisherDisplayName": "Martiros",
+    "publisherId": "30d32daa-27d6-45a5-9302-67a12f8658fb"
+  }
+}

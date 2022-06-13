@@ -1,0 +1,8 @@
+{
+    "fmt.Println":{
+        "prefix": "fp",
+        "body": [
+            "fmt.Println($0)"
+        ]
+    }
+}
