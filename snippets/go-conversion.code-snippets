@@ -1,0 +1,8 @@
+{
+    "To int": {
+        "prefix": ".int",
+        "body": [
+            ".(int)"
+        ]
+    }
+}

@@ -2,7 +2,7 @@
   "name": "go-snippets",
   "displayName": "go-snippets",
   "description": "golang snippets",
-  "version": "1.0.15",
+  "version": "1.0.20",
   "publisher": "Martiros",
   "author": {
     "name": "Martiros Harutyunyan"
@@ -25,6 +25,10 @@
       {
         "language": "go",
         "path": "./snippets/go.code-snippets"
+      },
+      {
+        "language": "go",
+        "path": "./snippets/go-conversion.code-snippets"
       }
     ]
   },

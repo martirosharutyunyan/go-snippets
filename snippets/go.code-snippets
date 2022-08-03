@@ -1,8 +1,84 @@
 {
-    "fmt.Println":{
-        "prefix": "fp",
+    "start": {
+        "prefix": "start",
+        "body": [
+            "package main",
+            "",
+            "import \"fmt\"",
+            "",
+            "func main() {",
+            "    $0",
+            "}"
+        ]
+    },
+    "fmt.Println": {
+        "prefix": "pl",
         "body": [
             "fmt.Println($0)"
+        ]
+    },
+    "for": {
+        "prefix": "for",
+        "body": [
+            "for i := 0; i < $1; i++ {",
+            "    $0",
+            "}"
+        ]
+    },
+    "empty for": {
+        "prefix": "empty-for",
+        "body": [
+            "for $1 {",
+            "    $0",
+            "}"
+        ]
+    },
+    "return": {
+        "prefix": "r",
+        "body": [
+            "return $0"
+        ]
+    },
+    "declare": {
+        "prefix": "d",
+        "body": [
+            "$1 := $0"
+        ]
+    },
+    "true": {
+        "prefix": "t",
+        "body": [
+            "true"
+        ]
+    },
+    "false": {
+        "prefix": "f",
+        "body": [
+            "false"
+        ]
+    },
+    "not nil": {
+        "prefix": "notnil",
+        "body": [
+            "!= nil"
+        ]
+    },
+    "is nil": {
+        "prefix": "isnil",
+        "body": [
+            "== nil"
+        ]
+    },
+    "import": {
+        "prefix": "im",
+        "body": [
+            "import \"$0\""
+        ]
+    },
+    "import fmt": {
+        "prefix": "imfmt",
+        "body": [
+            "import \"fmt\""
         ]
     }
 }
